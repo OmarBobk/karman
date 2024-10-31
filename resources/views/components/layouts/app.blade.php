@@ -12,8 +12,9 @@
 <body class="bg-gray-100 font-sans antialiased">
 
 <div x-data="{ sidebarOpen: false }" class="flex min-h-screen bg-gray-100">
-    <!-- Sidebar Component -->
-    <x-sidebar />
+
+
+    {{-- There is no sidebar anymore--}}
 
     <!-- Main Content Area -->
     <div class="flex-grow p-6 ml-0 lg:ml-64">
